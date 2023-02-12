@@ -11,7 +11,7 @@ import {
   import { ApiBearerAuth, ApiOperation, ApiTags } from '@nestjs/swagger';
   import { ChangeItemOrderDto } from './dto/change-item-order.dto';
   import { CreateOrderDto } from './dto/create-order.dto';
-  import { Order } from './entites/order.netity'; 
+  import { Order } from './entites/order.etity';  
   import { OrderService } from './order.service';
   
   @ApiTags('order')
