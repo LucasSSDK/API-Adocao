@@ -9,7 +9,7 @@ export class LoginResponseDto {
   token: string;
 
   @ApiProperty({
-    description: 'Dados do usuÃ¡rio autenticado',
+    description: 'Dados do usuario autenticado',
   })
-  user: IUserEntity;
+  User: IUserEntity;
 }
